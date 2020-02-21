@@ -27,11 +27,11 @@ export const Content = styled.div`
       font-weight: bold;
       color: #7159c1;
     }
+  }
 
-    aside {
-      display: flex;
-      align-items: center;
-    }
+  aside {
+    display: flex;
+    align-items: center;
   }
 `;
 
@@ -39,14 +39,14 @@ export const Profile = styled.div`
   display: flex;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 1ps solid #eee;
+  border-left: 1px solid #eee;
 
   div {
-    text-align: center;
+    text-align: right;
     margin-right: 10px;
 
     strong {
-      display: flex;
+      display: block;
       color: #333;
     }
 
