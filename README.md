@@ -32,12 +32,20 @@ After instalition, try typing **```yarn -v```** into your command line. You shou
 
 You must have the <a href="https://github.com/matheusleandroo/gobarber-api">GoBarber API</a>.
 
+It is recommended to install the extension ESLint, Prettier, EditorConfig and edit the code editor' settings:
+```
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+```
+
 <h3>Deploy</h3>
 
 After clone repository, go to folder and follow this steps:
 
+- Create a file **`.env`** based on the file **`.env.example`**;
+- Place your settings inside the **`.env`** file;
 - Run **`yarn`** to install dependencies;
-- Run **`yarn start`** to start de aplication.
+- Run **`yarn start`** to start application.
 
 Now you can use from your browser "**GoBarber WEB**".
 
